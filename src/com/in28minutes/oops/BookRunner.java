@@ -4,9 +4,12 @@ public class BookRunner {
 
     public static void main(String[] args) {
         System.out.println("\nNumber of Copies of Books through Constructor: ");
-        Book artOfComputerProgramming = new Book(0);
-        Book effectiveJava = new Book(0);
-        Book cleanCode = new Book(0);
+        Book artOfComputerProgramming = new Book(1000);
+        Book effectiveJava = new Book(1000);
+        Book cleanCode = new Book(1000);
+
+//        System.out.println(cleanCode.publisher);
+//        System.out.println(cleanCode.publishedDate);
 
         System.out.println(artOfComputerProgramming.getNoOfCopies());
         System.out.println(effectiveJava.getNoOfCopies());

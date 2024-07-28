@@ -4,14 +4,17 @@ public class MotorBikeRunner {
 
     public static void main(String[] args) {
         System.out.println("\nBikes Speed through Constructor: ");
-        MotorBike ducati = new MotorBike(5);
-        MotorBike honda = new MotorBike(2);
+        MotorBike ducati = new MotorBike(100);
+        MotorBike honda = new MotorBike(200);
+        MotorBike suzuki = new MotorBike();
 
         System.out.println("Ducati Speed: " + ducati.getSpeed());
         System.out.println("Honda Speed: " + honda.getSpeed());
+        System.out.println("Suzuki Speed: " + suzuki.getSpeed());
 
         ducati.start();
         honda.start();
+        suzuki.start();
 
         ducati.setSpeed(100);
 //        int ducatiSpeed = ducati.getSpeed();

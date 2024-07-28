@@ -1,7 +1,27 @@
 package com.in28minutes.oops;
 
 public class Book {
+
+    public String getPublisher() {
+        return publisher;
+    }
+
+    public String getPublishedDate() {
+        return publishedDate;
+    }
+
     private int noOfCopies;
+    protected String publisher;
+
+    String publishedDate;
+
+    public void setPublisher(String publisher) {
+        this.publisher = publisher;
+    }
+
+    public void setPublishedDate(String publishedDate) {
+        this.publishedDate = publishedDate;
+    }
 
     public int getNoOfCopies() {
         return noOfCopies;
