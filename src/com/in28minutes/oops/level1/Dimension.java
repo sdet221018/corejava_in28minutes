@@ -1,4 +1,4 @@
-package com.in28minutes.oops;
+package com.in28minutes.oops.level1;
 
 public class Dimension {
     public void setFeet(int feet) {
