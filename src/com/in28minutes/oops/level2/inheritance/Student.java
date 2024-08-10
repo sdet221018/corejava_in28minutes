@@ -19,4 +19,9 @@ public class Student extends Person{
     public void setYear(int year) {
         this.year = year;
     }
+
+    public String toString() {
+//        return getName() + "#" + getEmail() + "#" + getPhoneNumber() +  "#" + employer + "#" + title + "#" + employeeGrade + "#" + salary;
+        return super.toString() + "#" + collegeName + "#" + year;
+    }
 }
