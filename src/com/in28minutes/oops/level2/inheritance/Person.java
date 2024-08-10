@@ -4,6 +4,7 @@ package com.in28minutes.oops.level2.inheritance;
 public class Person extends Object{
     private String name;
     private String email;
+    private String phoneNumber;
 
     public String getName() {
         return name;
@@ -29,7 +30,8 @@ public class Person extends Object{
         this.phoneNumber = phoneNumber;
     }
 
-    private String phoneNumber;
-
-
+    public String toString() {
+//        return getClass().getName() + "#" + Integer.toHexString(hashCode());
+        return name + "#" + email + "#" + phoneNumber;
+    }
 }
