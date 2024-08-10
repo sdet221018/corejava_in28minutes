@@ -1,6 +1,4 @@
-package com.in28minutes.oops;
-
-import static java.lang.Math.sqrt;
+package com.in28minutes.oops.level1;
 
 // Defining a Point class to represent a point in 2-dimensional space
 public class Point {
